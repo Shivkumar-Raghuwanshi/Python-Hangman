@@ -18,7 +18,7 @@ if __name__ == '__main__':
 
     # list for storing the letters guessed by the player
     guessed_letter = ''
-    chances = len(word_of_country) + 5
+    chances = len(word_of_country) + 2
     print("\nYou have only", chances, "chances to guess the word")
     correct = 0
     flag = 0
